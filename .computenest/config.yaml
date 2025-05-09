@@ -52,10 +52,11 @@ Service:
   ServiceInfo:
     # 英文版可以再配置Locale为en-US的服务信息
   - Locale: zh-CN
-    Name: aliyun-computenest/quickstart-asktable-if0r
-    ShortDescription: Servicedescription
+    Name: AskTable社区版
+    ShortDescription: 
+      AskTable.com是中国首家企业级表格智能体（TableAgentasaService）服务商，基于世界领先的大模型（比如通义千问、DeepSeek、GPT、Claude等）打造，专为企业提供基于自然语言的数据分析体验，广泛支持Excel、数据库、数据仓库和知识库的智能查询。用户无需懂SQL，只需用“说”的方式，即可获得实时数据洞察，广泛应用于运营、财务、人事、销售等业务场景。目前AskTable提供三种版本：SaaS在线版、本地部署（云端算力）、本地部署（本地算力），满足不同企业对数据隐私、安全和算力的需求。
     Image: 
-      https://service-info-public.oss-cn-hangzhou.aliyuncs.com/1853370294850618/service-image/bfd30cc4-e959-4093-b5cb-77a05058b911.png
+      https://service-info-public.oss-cn-hangzhou.aliyuncs.com/1811606791208172/service-image/55051850-1077-41f3-8422-a5d4e54d09c9.jpg
     Softwares: []
   UpgradeMetadata:
     Description: 支持升级
