@@ -16,6 +16,7 @@ services:
       MYSQL_USER: asktable                     # MySQL 数据库用户名
       MYSQL_PASSWORD: asktable                 # MySQL 数据库密码
       MYSQL_DB: asktable                       # MySQL 数据库名称
+      MYSQL_ROOT_PASSWORD: asktable            # 用于初始化示例数据
       AUTH_EMAIL_INIT_ADMIN_EMAIL: ${ADMIN_EMAIL}
       AUTH_EMAIL_INIT_ADMIN_PASSWORD: ${PASSWORD}
     volumes:
