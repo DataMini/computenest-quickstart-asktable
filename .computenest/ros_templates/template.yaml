@@ -203,7 +203,7 @@ Parameters:
   API_KEY:
     Type: String
     AllowedPattern: ''
-    Label: AI 大模型api-key
+    Label: 大模型 LLM_API_KEY
     ConstraintDescription: ''
     Default: ''
     Description: '是以“asktable-”开头的字符串。登录 AskTable(https://cloud.asktable.com/?dialog=deployment) 获取'
@@ -331,6 +331,7 @@ Resources:
                   MYSQL_USER: asktable                     # MySQL 数据库用户名
                   MYSQL_PASSWORD: asktable                 # MySQL 数据库密码
                   MYSQL_DB: asktable                       # MySQL 数据库名称
+                  MYSQL_ROOT_PASSWORD: asktable            # 用于初始化示例数据
                   AUTH_EMAIL_INIT_ADMIN_EMAIL: ${ADMIN_NAME}
                   AUTH_EMAIL_INIT_ADMIN_PASSWORD: ${PASSWORD}
                 volumes:
@@ -510,4 +511,4 @@ Metadata:
           - ADMIN_NAME
           - PASSWORD
         Label:
-          default: AskTable应用配置
+          default: AskTable 应用配置
