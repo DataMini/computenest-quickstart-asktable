@@ -19,6 +19,8 @@ services:
       MYSQL_ROOT_PASSWORD: asktable            # 用于初始化示例数据
       AUTH_EMAIL_INIT_ADMIN_EMAIL: ${ADMIN_EMAIL}
       AUTH_EMAIL_INIT_ADMIN_PASSWORD: ${PASSWORD}
+      VDB_ADDRESS: http://asktable_vdb:6333    # 向量数据库地址
+      VDB_API_KEY: asktable                    # 向量数据库 API KEY
     volumes:
       - ./asktable_data:/asktable
 
