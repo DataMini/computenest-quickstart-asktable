@@ -493,8 +493,11 @@ Resources:
 Outputs:
   asktable_address:
     Description:
-      en: asktable address.
-      zh-cn: asktable 访问页面。
+      en: Visit this address to open the AskTable page
+      zh-cn: 访问该地址打开 AskTable 页面
+    Label:
+      zh-cn: AskTable AI 页面地址
+      en:  AskTable AI Address
     Value:
       Fn::Sub:
         - http://${ServerAddress}:8000
