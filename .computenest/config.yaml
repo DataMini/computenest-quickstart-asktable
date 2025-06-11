@@ -74,7 +74,7 @@ Artifact:
     ArtifactBuildProperty:
       CodeRepo:
         Platform: github
-        Owner: workhardliuzheng
+        Owner: leleboys
         RepoName: aliyun-computenest/quickstart-asktable
         Branch: main
       RegionId: ap-southeast-1
